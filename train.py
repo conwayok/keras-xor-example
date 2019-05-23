@@ -1,6 +1,6 @@
-from keras.models import Sequential
-from keras.layers import Dense
 import numpy as np
+from tensorflow.python.keras import Sequential
+from tensorflow.python.keras.layers import Dense
 
 # create model
 model = Sequential()
